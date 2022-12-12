@@ -28,6 +28,7 @@ struct CurrencyFormatter {
     private func convertEuro(_ euroPart: Double) -> String {
         let eurosWithDecimal = eurosFormatted(euroPart) // "$929,466.00"
         let formatter = NumberFormatter()
+        formatter.locale = Locale(identifier: "en_us")
         let decimalSeparator = formatter.decimalSeparator! // "."
         let euroComponents = eurosWithDecimal.components(separatedBy: decimalSeparator) // "$929,466" "00"
         var euros = euroComponents.first! // "$929,466"
@@ -50,6 +51,7 @@ struct CurrencyFormatter {
     // Converts 929466 > $929,466.00
     func eurosFormatted(_ euros: Double) -> String {
         let formatter = NumberFormatter()
+        formatter.locale = Locale(identifier: "en_us")
         formatter.numberStyle = .currency
         formatter.usesGroupingSeparator = true
         
