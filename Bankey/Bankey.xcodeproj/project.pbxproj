@@ -13,6 +13,7 @@
 		628243C62947D36D003CB497 /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628243C52947D36D003CB497 /* Decimal+Utils.swift */; };
 		628243C82947D3FC003CB497 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628243C72947D3FC003CB497 /* CurrencyFormatter.swift */; };
 		628243D72947DFA1003CB497 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628243D62947DFA1003CB497 /* CurrencyFormatterTests.swift */; };
+		62BF50502972025800FE5123 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF504F2972025800FE5123 /* ShakeyBellView.swift */; };
 		62C667BD293F5DD6006750A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667BC293F5DD6006750A4 /* AppDelegate.swift */; };
 		62C667C1293F5DD6006750A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667C0293F5DD6006750A4 /* LoginViewController.swift */; };
 		62C667C6293F5DD9006750A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C667C5293F5DD9006750A4 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		628243C72947D3FC003CB497 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		628243CD2947DDE0003CB497 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		628243D62947DFA1003CB497 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
+		62BF504F2972025800FE5123 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		62C667B9293F5DD6006750A4 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C667BC293F5DD6006750A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62C667C0293F5DD6006750A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
 		};
+		62BF504E2972020F00FE5123 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				62BF504F2972025800FE5123 /* ShakeyBellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		62C667B0293F5DD6006750A4 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 				62C667F12943836F006750A4 /* Onboarding */,
 				62C667FF29475729006750A4 /* AccountSummary */,
 				62C667F8294653E0006750A4 /* Utils */,
+				62BF504E2972020F00FE5123 /* Components */,
 				62C667EC293F6C75006750A4 /* Files */,
 			);
 			path = Bankey;
@@ -312,6 +323,7 @@
 				628243C62947D36D003CB497 /* Decimal+Utils.swift in Sources */,
 				6254BB7729487A4A0089F26D /* NSNotificationName.swift in Sources */,
 				62C667C1293F5DD6006750A4 /* LoginViewController.swift in Sources */,
+				62BF50502972025800FE5123 /* ShakeyBellView.swift in Sources */,
 				628243C429477DAD003CB497 /* AccountSummaryCell.swift in Sources */,
 				62C667F52943884D006750A4 /* OnboardingViewController.swift in Sources */,
 				62C667FE29469886006750A4 /* MainViewController.swift in Sources */,
