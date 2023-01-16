@@ -20,6 +20,8 @@
 		62BF505A29758A3900FE5123 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505929758A3900FE5123 /* AccountTests.swift */; };
 		62BF505C2975990800FE5123 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505B2975990800FE5123 /* SkeletonLoadable.swift */; };
 		62BF505E2975999200FE5123 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505D2975999100FE5123 /* SkeletonCell.swift */; };
+		62BF50612975E98D00FE5123 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF50602975E98D00FE5123 /* ProfileManager.swift */; };
+		62BF50632975EC2A00FE5123 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF50622975EC2A00FE5123 /* AccountSummaryViewControllerTests.swift */; };
 		62C667BD293F5DD6006750A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667BC293F5DD6006750A4 /* AppDelegate.swift */; };
 		62C667C1293F5DD6006750A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667C0293F5DD6006750A4 /* LoginViewController.swift */; };
 		62C667C6293F5DD9006750A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C667C5293F5DD9006750A4 /* Assets.xcassets */; };
@@ -61,6 +63,8 @@
 		62BF505929758A3900FE5123 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		62BF505B2975990800FE5123 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
 		62BF505D2975999100FE5123 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
+		62BF50602975E98D00FE5123 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		62BF50622975EC2A00FE5123 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 		62C667B9293F5DD6006750A4 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C667BC293F5DD6006750A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62C667C0293F5DD6006750A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -146,8 +150,17 @@
 			children = (
 				62BF5057297589BC00FE5123 /* ProfileTests.swift */,
 				62BF505929758A3900FE5123 /* AccountTests.swift */,
+				62BF50622975EC2A00FE5123 /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		62BF505F2975E93A00FE5123 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				62BF50602975E98D00FE5123 /* ProfileManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		62C667B0293F5DD6006750A4 = {
@@ -233,6 +246,7 @@
 				62BF5053297580EA00FE5123 /* AccountSummaryViewController+Networking.swift */,
 				628243C129477D4F003CB497 /* Header */,
 				628243C229477D75003CB497 /* Cells */,
+				62BF505F2975E93A00FE5123 /* Networking */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -342,6 +356,7 @@
 				628243D72947DFA1003CB497 /* CurrencyFormatterTests.swift in Sources */,
 				62BF505A29758A3900FE5123 /* AccountTests.swift in Sources */,
 				62BF5058297589BC00FE5123 /* ProfileTests.swift in Sources */,
+				62BF50632975EC2A00FE5123 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +367,7 @@
 				62C667FC294695D7006750A4 /* UIViewController+Utils.swift in Sources */,
 				62BF505E2975999200FE5123 /* SkeletonCell.swift in Sources */,
 				62BF505229757F2800FE5123 /* Date+Utils.swift in Sources */,
+				62BF50612975E98D00FE5123 /* ProfileManager.swift in Sources */,
 				62C667F0293F6D30006750A4 /* LoginView.swift in Sources */,
 				62C667FA2946540B006750A4 /* LocalState.swift in Sources */,
 				62C6680329475A50006750A4 /* AccountSummaryHeaderView.swift in Sources */,
