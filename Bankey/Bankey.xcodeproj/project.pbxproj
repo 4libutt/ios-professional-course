@@ -18,6 +18,8 @@
 		62BF5054297580EA00FE5123 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF5053297580EA00FE5123 /* AccountSummaryViewController+Networking.swift */; };
 		62BF5058297589BC00FE5123 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF5057297589BC00FE5123 /* ProfileTests.swift */; };
 		62BF505A29758A3900FE5123 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505929758A3900FE5123 /* AccountTests.swift */; };
+		62BF505C2975990800FE5123 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505B2975990800FE5123 /* SkeletonLoadable.swift */; };
+		62BF505E2975999200FE5123 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BF505D2975999100FE5123 /* SkeletonCell.swift */; };
 		62C667BD293F5DD6006750A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667BC293F5DD6006750A4 /* AppDelegate.swift */; };
 		62C667C1293F5DD6006750A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C667C0293F5DD6006750A4 /* LoginViewController.swift */; };
 		62C667C6293F5DD9006750A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C667C5293F5DD9006750A4 /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 		62BF5053297580EA00FE5123 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		62BF5057297589BC00FE5123 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		62BF505929758A3900FE5123 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		62BF505B2975990800FE5123 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		62BF505D2975999100FE5123 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
 		62C667B9293F5DD6006750A4 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C667BC293F5DD6006750A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62C667C0293F5DD6006750A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				628243C329477DAD003CB497 /* AccountSummaryCell.swift */,
+				62BF505B2975990800FE5123 /* SkeletonLoadable.swift */,
+				62BF505D2975999100FE5123 /* SkeletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C667FC294695D7006750A4 /* UIViewController+Utils.swift in Sources */,
+				62BF505E2975999200FE5123 /* SkeletonCell.swift in Sources */,
 				62BF505229757F2800FE5123 /* Date+Utils.swift in Sources */,
 				62C667F0293F6D30006750A4 /* LoginView.swift in Sources */,
 				62C667FA2946540B006750A4 /* LocalState.swift in Sources */,
@@ -361,6 +368,7 @@
 				62C6680129475777006750A4 /* AccountSummaryViewController.swift in Sources */,
 				62C667BD293F5DD6006750A4 /* AppDelegate.swift in Sources */,
 				62C667F3294383B0006750A4 /* OnboardingContainerViewController.swift in Sources */,
+				62BF505C2975990800FE5123 /* SkeletonLoadable.swift in Sources */,
 				62BF5054297580EA00FE5123 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
